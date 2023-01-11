@@ -1,0 +1,38 @@
+Ping
+(Packet Internet or Inter-Network Groper) is a basic Internet program that allows a user to 
+test and verify if a particular destination IP address exists and can accept requests in 
+computer network administration. The acronym was contrived to match the submariners' term 
+for the sound of a returned sonar pulse.
+
+ping -h
+
+Get the public ip of the given domain. Check the size of the packet which can be receive by 
+destination.
+
+Check how much TTL router would take to discard the packet
+ping www.w3schools.com -i 1 (i is time to live)
+
+tracert using ping
+ping www.w3schools.com -i 1 -n 1
+ping www.w3schools.com -i 13 -n 1
+
+tracert command is a command prompt command that is used to show several details about the path that a packt takes from the computer or devices youre on to whatever destination you specify it also records the time taken for each hop the packet makes during its route to destination 
+tracert www.w3schools.com
+
+TRACERT is useful for troubleshooting large networks where several paths can lead 
+to the same point or where many intermediate components (routers or bridges) are 
+involved.
+
+
+nslookup is the name of a program that lets an Internet server administrator or any 
+computer user enter a host name (for example, "whatis.com") and find out the 
+corresponding IP address or domain name system (DNS) record.
+
+Stands for Name Server Lookup is a useful command for DNS server it is a netwrk admisnistration tool for querying the DNS (.....) to obtain domain name of IP address mapping or any other specific DNS record it is used to troublshot DNS related problems
+
+
+nslookup
+set type=a
+set type=cname
+
+
